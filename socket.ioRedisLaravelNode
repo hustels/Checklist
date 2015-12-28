@@ -1,0 +1,4 @@
+src/redis-server
+src/redis-cli
+set foo bar
+get foo

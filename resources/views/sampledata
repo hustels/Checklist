@@ -1,0 +1,29 @@
+ $task = new App\Task;
+ $task->description = 'Reinicio de Siebel latam';
+$task->day = 1;
+ $task->completed = false;
+ $task->ownerId = 1;
+  $task->start_time= '13/03/2015';
+   $task->end_time= '13/03/2015';
+   $task->title = 'Siebel';
+
+    $task->inProgress = false;
+   
+    $task->save();
+
+
+
+
+     $task = new App\Task;
+ $task->description = 'Tarea de seguimiento de backups y cambio de cintas';
+$task->day = 1;
+ $task->completed = false;
+ $task->ownerId = 1;
+  $task->start_time= '13/03/2015';
+   $task->end_time= '13/03/2015';
+   $task->title = 'Backups';
+
+    $task->inProgress = false;
+   
+    $task->save();
+
